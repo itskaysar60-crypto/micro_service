@@ -260,3 +260,7 @@ D:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation
 D:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 D:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 D:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\RestSharp.dll
+D:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\System.Text.Json.dll
+D:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
