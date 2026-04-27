@@ -1,0 +1,17 @@
+D:\AspNetMicroservice\OrderService\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+D:\AspNetMicroservice\OrderService\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\AspNetMicroservice\OrderService\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+D:\AspNetMicroservice\OrderService\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+D:\AspNetMicroservice\OrderService\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+D:\AspNetMicroservice\OrderService\Application\bin\Debug\net6.0\Application.deps.json
+D:\AspNetMicroservice\OrderService\Application\bin\Debug\net6.0\Application.dll
+D:\AspNetMicroservice\OrderService\Application\bin\Debug\net6.0\Application.pdb
+D:\AspNetMicroservice\OrderService\Application\bin\Debug\net6.0\Domain.dll
+D:\AspNetMicroservice\OrderService\Application\bin\Debug\net6.0\Shared.Contracts.dll
+D:\AspNetMicroservice\OrderService\Application\bin\Debug\net6.0\Domain.pdb
+D:\AspNetMicroservice\OrderService\Application\bin\Debug\net6.0\Shared.Contracts.pdb
+D:\AspNetMicroservice\OrderService\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+D:\AspNetMicroservice\OrderService\Application\obj\Debug\net6.0\Application.dll
+D:\AspNetMicroservice\OrderService\Application\obj\Debug\net6.0\refint\Application.dll
+D:\AspNetMicroservice\OrderService\Application\obj\Debug\net6.0\Application.pdb
+D:\AspNetMicroservice\OrderService\Application\obj\Debug\net6.0\ref\Application.dll

@@ -1,0 +1,12 @@
+D:\AspNetMicroservice\OrderService\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\AspNetMicroservice\OrderService\Domain\bin\Debug\net6.0\Domain.dll
+D:\AspNetMicroservice\OrderService\Domain\bin\Debug\net6.0\Domain.pdb
+D:\AspNetMicroservice\OrderService\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\AspNetMicroservice\OrderService\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\AspNetMicroservice\OrderService\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\AspNetMicroservice\OrderService\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\AspNetMicroservice\OrderService\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\AspNetMicroservice\OrderService\Domain\obj\Debug\net6.0\Domain.dll
+D:\AspNetMicroservice\OrderService\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\AspNetMicroservice\OrderService\Domain\obj\Debug\net6.0\Domain.pdb
+D:\AspNetMicroservice\OrderService\Domain\obj\Debug\net6.0\ref\Domain.dll

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lreUC1/H4goLbt1rSsLf/14sxv/l/aubKpZ7agmJSAyuHc6Pt96OndDrYe3YeKTa7mapFHdPA/nNpL/gzqxEdg==",
+  "success": true,
+  "projectFilePath": "D:\\AspNetMicroservice\\InventoryService\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mdkay\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\mdkay\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.4\\microsoft.extensions.logging.abstractions.6.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

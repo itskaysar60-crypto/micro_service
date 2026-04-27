@@ -1,0 +1,17 @@
+D:\AspNetMicroservice\InventoryService\Application\bin\Debug\net6.0\Application.deps.json
+D:\AspNetMicroservice\InventoryService\Application\bin\Debug\net6.0\Application.dll
+D:\AspNetMicroservice\InventoryService\Application\bin\Debug\net6.0\Application.pdb
+D:\AspNetMicroservice\InventoryService\Application\bin\Debug\net6.0\Domain.dll
+D:\AspNetMicroservice\InventoryService\Application\bin\Debug\net6.0\Shared.Contracts.dll
+D:\AspNetMicroservice\InventoryService\Application\bin\Debug\net6.0\Domain.pdb
+D:\AspNetMicroservice\InventoryService\Application\bin\Debug\net6.0\Shared.Contracts.pdb
+D:\AspNetMicroservice\InventoryService\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+D:\AspNetMicroservice\InventoryService\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\AspNetMicroservice\InventoryService\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+D:\AspNetMicroservice\InventoryService\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+D:\AspNetMicroservice\InventoryService\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+D:\AspNetMicroservice\InventoryService\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+D:\AspNetMicroservice\InventoryService\Application\obj\Debug\net6.0\Application.dll
+D:\AspNetMicroservice\InventoryService\Application\obj\Debug\net6.0\refint\Application.dll
+D:\AspNetMicroservice\InventoryService\Application\obj\Debug\net6.0\Application.pdb
+D:\AspNetMicroservice\InventoryService\Application\obj\Debug\net6.0\ref\Application.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bDeVcz1YN725ZFg8+WPnfpWe/axBQm8spQlzya/gmN51raRruVkSnfa2bB416cAc4JfrR3y77uvyC3dVnMJZNA==",
+  "success": true,
+  "projectFilePath": "D:\\AspNetMicroservice\\OrderService\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mdkay\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
