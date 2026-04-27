@@ -8,27 +8,28 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Kaysar\\.nuget\\packages\\": {},
+    "C:\\Users\\mdkay\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj",
+      "projectUniqueName": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj",
       "projectName": "Shared.Contracts",
-      "projectPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj",
-      "packagesPath": "C:\\Users\\Kaysar\\.nuget\\packages\\",
-      "outputPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\obj\\",
+      "projectPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj",
+      "packagesPath": "C:\\Users\\mdkay\\.nuget\\packages\\",
+      "outputPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kaysar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mdkay\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -47,13 +48,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "10.0.200"
+      }
     },
     "frameworks": {
       "net6.0": {
@@ -64,8 +59,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -74,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

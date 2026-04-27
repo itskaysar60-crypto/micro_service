@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Presentation\\Presentation.csproj": {}
+    "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Presentation\\Presentation.csproj": {}
   },
   "projects": {
-    "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Application\\Application.csproj": {
+    "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Kaysar\\.nuget\\packages\\",
-        "outputPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Application\\obj\\",
+        "projectPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\mdkay\\.nuget\\packages\\",
+        "outputPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kaysar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mdkay\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -33,11 +34,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Domain\\Domain.csproj": {
-                "projectPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Domain\\Domain.csproj"
+              "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Domain\\Domain.csproj"
               },
-              "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj": {
-                "projectPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj"
+              "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj": {
+                "projectPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj"
               }
             }
           }
@@ -46,13 +47,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.200"
+        }
       },
       "frameworks": {
         "net6.0": {
@@ -66,9 +61,21 @@
               "target": "Package",
               "version": "[11.9.2, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.36, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
             }
           },
           "imports": [
@@ -77,8 +84,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -87,27 +93,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Domain\\Domain.csproj": {
+    "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Kaysar\\.nuget\\packages\\",
-        "outputPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Domain\\obj\\",
+        "projectPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\mdkay\\.nuget\\packages\\",
+        "outputPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kaysar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mdkay\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -126,13 +133,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.200"
+        }
       },
       "frameworks": {
         "net6.0": {
@@ -143,8 +144,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -153,27 +153,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Kaysar\\.nuget\\packages\\",
-        "outputPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Infrastructure\\obj\\",
+        "projectPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\mdkay\\.nuget\\packages\\",
+        "outputPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kaysar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mdkay\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -186,8 +187,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Domain\\Domain.csproj": {
-                "projectPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Domain\\Domain.csproj"
+              "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Domain\\Domain.csproj"
               }
             }
           }
@@ -196,13 +197,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.200"
+        }
       },
       "frameworks": {
         "net6.0": {
@@ -237,8 +232,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -247,27 +241,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Presentation\\Presentation.csproj": {
+    "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Presentation\\Presentation.csproj",
-        "packagesPath": "C:\\Users\\Kaysar\\.nuget\\packages\\",
-        "outputPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Presentation\\obj\\",
+        "projectPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Presentation\\Presentation.csproj",
+        "packagesPath": "C:\\Users\\mdkay\\.nuget\\packages\\",
+        "outputPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kaysar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mdkay\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -280,11 +275,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Application\\Application.csproj": {
-                "projectPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Application\\Application.csproj"
+              "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Application\\Application.csproj": {
+                "projectPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Application\\Application.csproj"
               },
-              "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Infrastructure\\Infrastructure.csproj"
+              "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -293,13 +288,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.200"
+        }
       },
       "frameworks": {
         "net6.0": {
@@ -312,6 +301,14 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.36, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -330,8 +327,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -343,27 +339,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj": {
+    "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj",
+        "projectUniqueName": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj",
         "projectName": "Shared.Contracts",
-        "projectPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Kaysar\\.nuget\\packages\\",
-        "outputPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\obj\\",
+        "projectPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj",
+        "packagesPath": "C:\\Users\\mdkay\\.nuget\\packages\\",
+        "outputPath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kaysar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mdkay\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -382,13 +379,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.200"
+        }
       },
       "frameworks": {
         "net6.0": {
@@ -399,8 +390,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -409,7 +399,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

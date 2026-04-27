@@ -12,7 +12,8 @@ namespace OrderService.Presentation.Controllers;
 /// POST /api/auth/token  →  { "token": "eyJ..." }
 /// </summary>
 [ApiController]
-[Route("api/auth")]
+[ApiVersion("1.0")]
+[Route("api/v{version:apiVersion}/[controller]")]
 public class AuthController : ControllerBase
 {
     private readonly JwtSettings _jwt;

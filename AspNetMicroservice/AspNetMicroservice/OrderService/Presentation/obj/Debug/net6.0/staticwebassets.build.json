@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"VhxG5UGuY6zklGQmDmG3EdKpDehQbZ7pHbs8nSFiYNA=","Source":"Presentation","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "uA4PscVLrzDlBxDyFkUleeR9VGM/ZvO3tVpSht4hk3M=",
+  "Source": "Presentation",
+  "BasePath": "_content/Presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

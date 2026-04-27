@@ -9,12 +9,12 @@ using OrderService.Presentation.Auth;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ── JWT Settings (read from appsettings.json "Jwt" section) ──
+// -- JWT Settings (read from appsettings.json "Jwt" section) --
 var jwtSettings = new JwtSettings();
 builder.Configuration.GetSection("Jwt").Bind(jwtSettings);
 builder.Services.AddSingleton(jwtSettings);
 
-// ── JWT Authentication ──────────────────────────────────────────────────────
+// -- JWT Authentication ------------------------------------------------------
 builder.Services
     .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -35,16 +35,38 @@ builder.Services
 
 builder.Services.AddAuthorization();
 
-// ── Register all layers via extension methods ──
+// -- Register all layers via extension methods --
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
-// ── Controllers + FluentValidation ──
+// -- Controllers + FluentValidation --
 builder.Services.AddControllers();
 builder.Services.AddFluentValidationAutoValidation();
 
-// ── Swagger with Bearer token support ──────────────────────────────────────
+// -- Swagger with Bearer token support -
 builder.Services.AddEndpointsApiExplorer();
+
+//api versioning
+builder.Services.AddApiVersioning();
+
+//cors policy
+// Named Policy
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "CorsPolicy",
+        builder =>
+        {
+            // builder.Build();
+            //for any orgin/domain
+            builder.AllowAnyOrigin().AllowAnyHeader().WithMethods(new[]{"GET", "HEAD", "OPTIONS", "TRACE","POST","PUT"
+
+            });
+
+            //specified domain
+            //builder.WithOrigins(Configuration["AllowedHosts"].Split(',')).AllowAnyHeader().AllowAnyMethod();
+        });
+});
+
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "OrderService API", Version = "v1" });
@@ -74,7 +96,7 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// ── Middleware pipeline ──
+// -- Middleware pipeline --
 app.UseSwagger();
 app.UseSwaggerUI();
 
@@ -82,6 +104,7 @@ app.UseAuthentication();   // ← must be BEFORE UseAuthorization
 app.UseAuthorization();
 
 app.MapControllers();
+app.UseCors("CorsPolicy");
 
 app.Run();
 

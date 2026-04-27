@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xpoQDoN9GIQ=",
+  "dgSpecHash": "n4aeqcEnidk0GYxlRWXVzFaDmL02UlEYxDxXV2RXhgmx/o7G8p2FGWvADE1GVA+8gj05CAGAb4ZYfSb3Bk73zg==",
   "success": true,
-  "projectFilePath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj",
+  "projectFilePath": "D:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
