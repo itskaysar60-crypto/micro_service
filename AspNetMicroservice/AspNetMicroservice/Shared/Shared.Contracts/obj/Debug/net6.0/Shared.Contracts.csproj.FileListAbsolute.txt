@@ -10,3 +10,15 @@ D:\AspNetMicroservice\Shared\Shared.Contracts\obj\Debug\net6.0\Shared.Contracts.
 D:\AspNetMicroservice\Shared\Shared.Contracts\obj\Debug\net6.0\refint\Shared.Contracts.dll
 D:\AspNetMicroservice\Shared\Shared.Contracts\obj\Debug\net6.0\Shared.Contracts.pdb
 D:\AspNetMicroservice\Shared\Shared.Contracts\obj\Debug\net6.0\ref\Shared.Contracts.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\Shared\Shared.Contracts\bin\Debug\net6.0\Shared.Contracts.deps.json
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\Shared\Shared.Contracts\bin\Debug\net6.0\Shared.Contracts.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\Shared\Shared.Contracts\bin\Debug\net6.0\Shared.Contracts.pdb
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\Shared\Shared.Contracts\obj\Debug\net6.0\Shared.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\Shared\Shared.Contracts\obj\Debug\net6.0\Shared.Contracts.AssemblyInfoInputs.cache
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\Shared\Shared.Contracts\obj\Debug\net6.0\Shared.Contracts.AssemblyInfo.cs
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\Shared\Shared.Contracts\obj\Debug\net6.0\Shared.Contracts.csproj.CoreCompileInputs.cache
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\Shared\Shared.Contracts\obj\Debug\net6.0\Shared.Contracts.sourcelink.json
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\Shared\Shared.Contracts\obj\Debug\net6.0\Shared.Contracts.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\Shared\Shared.Contracts\obj\Debug\net6.0\refint\Shared.Contracts.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\Shared\Shared.Contracts\obj\Debug\net6.0\Shared.Contracts.pdb
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\Shared\Shared.Contracts\obj\Debug\net6.0\ref\Shared.Contracts.dll

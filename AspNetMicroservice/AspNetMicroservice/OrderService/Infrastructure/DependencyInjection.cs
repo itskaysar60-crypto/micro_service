@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using OrderService.Domain.Interfaces;
+using OrderService.Infrastructure.Messaging;
 using OrderService.Infrastructure.Persistence;
 using OrderService.Infrastructure.Repositories;
 using OrderService.Infrastructure.Sync;
@@ -21,17 +22,24 @@ public static class DependencyInjection
         // ── Repositories (Scoped — one per HTTP request) ──
         services.AddScoped<IOrderRepository, OrderRepository>();
         services.AddScoped<IOutboxRepository, OutboxRepository>();
+        services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-        // ── HTTP Client for InventoryService ──
-        services.AddHttpClient("InventoryService", client =>
+        // ── RabbitMQ ──
+        var rmqSettings = new RabbitMqSettings
         {
-            client.BaseAddress = new Uri(config["InventoryService:BaseUrl"]!);
-            client.DefaultRequestHeaders.Add("Accept", "application/json");
-        });
+            Host        = config["RabbitMq:Host"]        ?? "localhost",
+            Port        = int.TryParse(config["RabbitMq:Port"], out var p) ? p : 5672,
+            Username    = config["RabbitMq:Username"]    ?? "guest",
+            Password    = config["RabbitMq:Password"]    ?? "guest",
+            VirtualHost = config["RabbitMq:VirtualHost"] ?? "/"
+        };
+        services.AddSingleton(rmqSettings);            // bind settings POCO once
+        services.AddSingleton<RabbitMqPublisher>();    // one connection for the whole process
 
-        // ── Background Sync Service ──
-        services.AddHostedService<HttpOutboxRelay>();
+        // ── Background relay: polls OutboxEvents → publishes to RabbitMQ ──
+        services.AddHostedService<RabbitMqOutboxRelay>();
 
         return services;
     }
 }
+

@@ -10,3 +10,15 @@ D:\AspNetMicroservice\InventoryService\Domain\obj\Debug\net6.0\Domain.dll
 D:\AspNetMicroservice\InventoryService\Domain\obj\Debug\net6.0\refint\Domain.dll
 D:\AspNetMicroservice\InventoryService\Domain\obj\Debug\net6.0\Domain.pdb
 D:\AspNetMicroservice\InventoryService\Domain\obj\Debug\net6.0\ref\Domain.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\InventoryService\Domain\bin\Debug\net6.0\Domain.deps.json
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\InventoryService\Domain\bin\Debug\net6.0\Domain.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\InventoryService\Domain\bin\Debug\net6.0\Domain.pdb
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\InventoryService\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\InventoryService\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\InventoryService\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\InventoryService\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\InventoryService\Domain\obj\Debug\net6.0\Domain.sourcelink.json
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\InventoryService\Domain\obj\Debug\net6.0\Domain.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\InventoryService\Domain\obj\Debug\net6.0\refint\Domain.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\InventoryService\Domain\obj\Debug\net6.0\Domain.pdb
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\InventoryService\Domain\obj\Debug\net6.0\ref\Domain.dll

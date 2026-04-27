@@ -8,28 +8,27 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mdkay\\.nuget\\packages\\": {},
+    "C:\\Users\\Kaysar\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj",
+      "projectUniqueName": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj",
       "projectName": "Shared.Contracts",
-      "projectPath": "D:\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj",
-      "packagesPath": "C:\\Users\\mdkay\\.nuget\\packages\\",
-      "outputPath": "D:\\AspNetMicroservice\\Shared\\Shared.Contracts\\obj\\",
+      "projectPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj",
+      "packagesPath": "C:\\Users\\Kaysar\\.nuget\\packages\\",
+      "outputPath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mdkay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kaysar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -48,7 +47,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net6.0": {
@@ -64,26 +69,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.31, 6.0.31]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.31, 6.0.31]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.31, 6.0.31]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.317\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

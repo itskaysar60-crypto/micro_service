@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "bDeVcz1YN725ZFg8+WPnfpWe/axBQm8spQlzya/gmN51raRruVkSnfa2bB416cAc4JfrR3y77uvyC3dVnMJZNA==",
+  "dgSpecHash": "Tj0+GL2BUrk=",
   "success": true,
-  "projectFilePath": "D:\\AspNetMicroservice\\OrderService\\Application\\Application.csproj",
+  "projectFilePath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\OrderService\\Application\\Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mdkay\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    "C:\\Users\\Kaysar\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
+    "C:\\Users\\Kaysar\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.2\\fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
+    "C:\\Users\\Kaysar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

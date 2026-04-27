@@ -14,11 +14,16 @@ public class OrderAppService : IOrderService
 {
     private readonly IOrderRepository _orderRepo;
     private readonly IOutboxRepository _outboxRepo;
+    private readonly IUnitOfWork _uow;
 
-    public OrderAppService(IOrderRepository orderRepo, IOutboxRepository outboxRepo)
+    public OrderAppService(
+        IOrderRepository orderRepo,
+        IOutboxRepository outboxRepo,
+        IUnitOfWork uow)
     {
         _orderRepo = orderRepo;
         _outboxRepo = outboxRepo;
+        _uow = uow;
     }
 
     public async Task<Guid> CreateOrderAsync(CreateOrderDto dto)
@@ -57,10 +62,21 @@ public class OrderAppService : IOrderService
             CreatedAt = DateTime.UtcNow
         };
 
-        // Atomic — both saved in one SaveChanges call
-        await _orderRepo.AddAsync(order);
-        await _outboxRepo.AddAsync(outboxEvent);
-        await _orderRepo.SaveChangesAsync();
+        // Begin DB transaction — rolls back BOTH tables on any exception
+        await _uow.BeginTransactionAsync();
+        try
+        {
+            await _orderRepo.AddAsync(order);
+            await _outboxRepo.AddAsync(outboxEvent);
+            await _orderRepo.SaveChangesAsync();   // single SaveChanges covers both repos
+
+            await _uow.CommitAsync();
+        }
+        catch
+        {
+            await _uow.RollbackAsync();
+            throw;  // re-throw so the controller returns a 500
+        }
 
         return order.Id;
     }

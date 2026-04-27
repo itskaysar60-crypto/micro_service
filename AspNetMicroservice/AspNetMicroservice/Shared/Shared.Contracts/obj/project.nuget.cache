@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GiY3nf0aGzuvEuhqp9KiQ9ZF9Zi3Lt+p6mHn+lfSZotFkYtvHjH8ASlqt5u9tyPnVnE4gRHY1rtwrhK4mQYyrg==",
+  "dgSpecHash": "xpoQDoN9GIQ=",
   "success": true,
-  "projectFilePath": "D:\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\mdkay\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.31\\microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
-    "C:\\Users\\mdkay\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.31\\microsoft.netcore.app.ref.6.0.31.nupkg.sha512",
-    "C:\\Users\\mdkay\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.31\\microsoft.windowsdesktop.app.ref.6.0.31.nupkg.sha512"
-  ],
+  "projectFilePath": "F:\\micro_service\\AspNetMicroservice\\AspNetMicroservice\\Shared\\Shared.Contracts\\Shared.Contracts.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
