@@ -158,7 +158,6 @@ F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation
 F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\obj\Debug\net6.0\staticwebassets.build.json.cache
 F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\obj\Debug\net6.0\staticwebassets.development.json
 F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\obj\Debug\net6.0\staticwebassets.build.endpoints.json
-F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\obj\Debug\net6.0\swae.build.ex.cache
 F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\obj\Debug\net6.0\Presenta.BC777DBE.Up2Date
 F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\obj\Debug\net6.0\Presentation.dll
 F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\obj\Debug\net6.0\refint\Presentation.dll
@@ -264,3 +263,12 @@ D:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation
 D:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 D:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\System.Text.Json.dll
 D:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\Newtonsoft.Json.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\RestSharp.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\System.Text.Json.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+F:\micro_service\AspNetMicroservice\AspNetMicroservice\OrderService\Presentation\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt

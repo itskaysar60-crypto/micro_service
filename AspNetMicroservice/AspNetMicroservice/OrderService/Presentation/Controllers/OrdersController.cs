@@ -1,3 +1,4 @@
+using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using OrderService.Application.DTOs;
@@ -13,11 +14,13 @@ namespace OrderService.Presentation.Controllers;
 public class OrdersController : ControllerBase
 {
     private readonly IOrderService _orderService;
+    private readonly IValidator<CreateOrderDto> _createOrderValidator;
 
 
-    public OrdersController(IOrderService orderService)
+    public OrdersController(IOrderService orderService, IValidator<CreateOrderDto> createOrderValidator)
     {
         _orderService = orderService;
+        _createOrderValidator = createOrderValidator;
     }
 
     /// <summary>
@@ -26,6 +29,18 @@ public class OrdersController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] CreateOrderDto dto)
     {
+        var validation = await _createOrderValidator.ValidateAsync(dto);
+        if (!validation.IsValid)
+        {
+            var errors = validation.Errors
+                .GroupBy(e => e.PropertyName)
+                .ToDictionary(
+                    g => g.Key,
+                    g => g.Select(e => e.ErrorMessage).ToArray()
+                );
+            return BadRequest(new { errors });
+        }
+
         try
         {
             var orderId = await _orderService.CreateOrderAsync(dto);
